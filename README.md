@@ -20,3 +20,5 @@
   <li>Angular Reactive Forms: https://angular.io/guide/reactive-forms</li>
   <li>Bunu mutlaka yapın bitirin! Size çok şey katacak. Tutorial: https://angular.io/tutorial</li>
 </ul>
+
+<p>İletişim: www.linkedin.com/in/volkan-sonmez</p>
