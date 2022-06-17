@@ -1,8 +1,8 @@
 <h1>PIA Camp Angular</h1>
 <h3>Proje Kurulumu</h3>
-<p>Angular projesini çalıştırmak için <u>ng-camp</u> klasörü içerisinde, komut satırında <code>npm install</code> komutunu çalıştırmanız gerekmektedir.</p>
-<p>Bu şekilde, projenin intyaç duyduğu <u>node_modules</u> bileşenlerini yükler.</p>
-<p>Yükleme tamamlandıktan sonra <u>ng-camp</u> klasörü içerisinde, komut satırında <code>npm start</code> komutu ile projeyi çalıştırabilirsiniz.</p>
+<p>Angular projesini çalıştırmak için <b>ng-camp</b> klasörü içerisinde, komut satırında <code>npm install</code> komutunu çalıştırmanız gerekmektedir.</p>
+<p>Bu şekilde, projenin intyaç duyduğu <b>node_modules</b> bileşenlerini yükler.</p>
+<p>Yükleme tamamlandıktan sonra <b>ng-camp</b> klasörü içerisinde, komut satırında <code>npm start</code> komutu ile projeyi çalıştırabilirsiniz.</p>
 
 <h3>Çalışılması Gereken Konular</h3>
 <p>Öncelikle, yaptıklarımızı mutlaka tekrar edin. Daha sonra aşağıdaki konulara mutlaka bakın hatta proje üzerinde deneyin.</p> 
