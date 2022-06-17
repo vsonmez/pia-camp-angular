@@ -1,0 +1,15 @@
+<!-- <app-add-user (osman)="getFormValue($event)" ></app-add-user>
+<ul>
+  <ng-container *ngFor="let user of users">
+    <li>
+      <app-user [user]="user"></app-user>
+    </li>
+  </ng-container>
+</ul> -->
+<ul>
+  <ng-container *ngFor="let user of jsonPlaceHolderUsers">
+    <li>
+      {{ user.name }}
+    </li>
+  </ng-container>
+</ul>

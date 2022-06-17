@@ -1,0 +1,19 @@
+<button (click)="toggleMore()">More</button>
+
+<ng-container *ngIf="showMore">
+  <div>
+    {{ userEmail }}
+  </div>
+  <div>
+    {{ userAge }}
+  </div>
+
+  <ng-container *ngFor="let interest of userInterests">
+    <div>
+      {{ interest.name }}
+    </div>
+    <div>
+      {{ interest.experience }}
+    </div>
+  </ng-container>
+</ng-container>

@@ -1,0 +1,6 @@
+<!-- <div>
+  <b>Full Name: </b>
+  {{ userName }} {{ userSurname }}
+</div>
+<app-user-detail></app-user-detail> -->
+<div [class.online]="user.isOnline" [class.offline]="!user.isOnline">{{ user.name || 'No Name' }} {{ user.surname || '-' }}</div>

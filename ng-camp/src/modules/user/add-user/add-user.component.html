@@ -1,0 +1,19 @@
+<button>Add User</button>
+<form [formGroup]="addUserForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>Name</label>
+    <input type="text" formControlName="name" />
+    <span *ngIf="addUserForm.controls.name.errors">Zorunlu Alan</span>
+  </div>
+  <div>
+    <label>Surname</label>
+    <input type="text" formControlName="surname" />
+    <span *ngIf="addUserForm.controls.surname.errors">Zorunlu Alan</span>
+  </div>
+  <div>
+    <label>Age</label>
+    <input type="number" formControlName="age" />
+    <span *ngIf="addUserForm.controls.age.errors">Zorunlu Alan</span>
+  </div>
+  <button [disabled]="addUserForm.invalid">Add</button>
+</form>
