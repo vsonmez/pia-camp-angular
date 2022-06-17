@@ -1,4 +1,3 @@
-# pia-camp-angular
 <h1>PIA Camp Angular</h1>
 <h3>Proje Kurulumu</h3>
 <p>Angular projesini çalıştırmak için <u>ng-camp</u> klasörü içerisinde, komut satırında <code>npm install</code> komutunu çalıştırmanız gerekmektedir.</p>
